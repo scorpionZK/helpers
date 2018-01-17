@@ -1,12 +1,13 @@
-import Dom from './dom.js'
-import Browser from './browser.js'
-import Detail from './detail.js'
-import Optimize from './optimize.js'
+import dom from './dom.js'
+import browser from './browser.js'
+import detail from './detail.js'
+import optimize from './optimize.js'
 
 
-export default {
-    Dom,
-    Browser,
-    Detail,
-    Optimize
-}
+export const Dom = dom;
+
+export const Browser = browser;
+
+export const Detail = detail;
+
+export const Optimize = optimize;
