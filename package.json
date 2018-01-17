@@ -1,0 +1,19 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "dom optimize detail browser of methods",
+  "main": "es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wukangjun/helpers.git"
+  },
+  "author": "wukangjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wukangjun/helpers/issues"
+  },
+  "homepage": "https://github.com/wukangjun/helpers#readme"
+}
