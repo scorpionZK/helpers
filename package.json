@@ -1,6 +1,6 @@
 {
-  "name": "super-wkj-helpers",
-  "version": "1.0.1",
+  "name": "handsome-helpers",
+  "version": "0.0.1",
   "description": "dom optimize detail browser of methods",
   "main": "es/index.js",
   "scripts": {

@@ -34,6 +34,10 @@ details.isObject = function(obj){
     return !!obj && type === 'object' || type === 'function';
 }
 
+details.isEl = function(element){
+    return !!element && element.nodeType === 1;
+}
+
 details.extend = function(){
     var options, name, src, copy, copyIsArray, clone,
     target = arguments[0] || {},

@@ -105,12 +105,25 @@ function findPosition(element) {
     }
 }
 
+/**
+ * 
+ * @param {string} methods: querySelector or querySelectorAll
+ * @return {function} (selector, context)
+ */
+function getEl(methods){
+    return function(selector, context){
+        var ctx = context.nodeType === 1 ? context : document;
+        return ctx[methods] && ctx[methods](selector);
+    }
+}
 
 export default {
     height,
     width,
     delegate,
     getBoundingClientRect,
-    findPosition
+    findPosition,
+    getEl: getEl('querySelector'),
+    getEls: getEl('querySelectorAll')
 }
 
